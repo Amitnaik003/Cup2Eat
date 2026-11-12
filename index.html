@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Cup2Eat makes edible cups that turn coffee, desserts, and event serves into an experience worth remembering."
+    />
+    <meta name="theme-color" content="#fff8ed" />
+    <meta property="og:title" content="Cup2Eat — Drink it. Crunch it." />
+    <meta
+      property="og:description"
+      content="Edible cups for cafés, desserts, events, hospitality, and distributors."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/social-preview.svg" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800;9..144,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Cup2Eat — The cup you finish</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+    <header class="site-header" data-header>
+      <div class="header-shell">
+        <a class="brand" href="#top" aria-label="Cup2Eat home">
+          <img src="assets/logo-mark.svg" alt="" width="42" height="42" />
+          <span>Cup<span>2</span>Eat</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          data-menu-toggle
+        >
+          <span class="sr-only">Open menu</span>
+          <span></span><span></span>
+        </button>
+
+        <nav id="site-nav" class="site-nav" aria-label="Primary navigation" data-nav>
+          <a href="#how">How it works</a>
+          <a href="#benefits">Why Cup2Eat</a>
+          <a href="#uses">Serving ideas</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+
+        <a class="button button--small header-cta" href="#enquire">Request a sample</a>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="top">
+        <div class="hero-grain" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow reveal">Cups made to be eaten</p>
+            <h1 class="hero-title reveal">
+              Drink the coffee.<br />
+              <span>Eat the cup.</span>
+            </h1>
+            <p class="hero-intro reveal">
+              Crisp, edible cups that turn drinks, desserts, and tasting portions into something
+              people remember long after the last bite.
+            </p>
+            <div class="hero-actions reveal">
+              <a class="button" href="#enquire">
+                Request a sample
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+              </a>
+              <a class="text-link" href="#how">Discover the cup <span aria-hidden="true">↓</span></a>
+            </div>
+            <p class="hero-audience reveal">
+              <span aria-hidden="true"></span>
+              For cafés, caterers, events, hospitality &amp; distributors
+            </p>
+          </div>
+
+          <div class="hero-visual reveal" aria-label="Illustration of an edible cup filled with coffee">
+            <div class="orbit orbit--one" aria-hidden="true"></div>
+            <div class="orbit orbit--two" aria-hidden="true"></div>
+            <span class="crumb crumb--one" aria-hidden="true"></span>
+            <span class="crumb crumb--two" aria-hidden="true"></span>
+            <span class="crumb crumb--three" aria-hidden="true"></span>
+
+            <div class="cup-badge cup-badge--top" aria-hidden="true">
+              <strong>01</strong>
+              <span>Pour</span>
+            </div>
+            <div class="cup-badge cup-badge--bottom" aria-hidden="true">
+              <strong>03</strong>
+              <span>Crunch</span>
+            </div>
+
+            <svg class="hero-cup" viewBox="0 0 560 640" role="img" aria-labelledby="cup-title cup-desc">
+              <title id="cup-title">A baked edible cup filled with coffee</title>
+              <desc id="cup-desc">A warm biscuit-coloured cup with a chocolate rim, rising steam, and a playful bite mark.</desc>
+              <defs>
+                <linearGradient id="cupBody" x1="0" x2="1" y1="0" y2="1">
+                  <stop offset="0" stop-color="#f3bd78" />
+                  <stop offset="0.48" stop-color="#d98a45" />
+                  <stop offset="1" stop-color="#a9552d" />
+                </linearGradient>
+                <linearGradient id="rim" x1="0" x2="0" y1="0" y2="1">
+                  <stop offset="0" stop-color="#f9d49d" />
+                  <stop offset="1" stop-color="#bd6b34" />
+                </linearGradient>
+                <radialGradient id="coffee" cx="50%" cy="35%" r="65%">
+                  <stop offset="0" stop-color="#7a442c" />
+                  <stop offset="0.7" stop-color="#3c2118" />
+                  <stop offset="1" stop-color="#24150f" />
+                </radialGradient>
+                <filter id="cupShadow" x="-40%" y="-40%" width="180%" height="220%">
+                  <feDropShadow dx="0" dy="28" stdDeviation="22" flood-color="#5c2b16" flood-opacity=".28" />
+                </filter>
+                <filter id="texture" x="0" y="0" width="100%" height="100%">
+                  <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="8" result="noise" />
+                  <feColorMatrix in="noise" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 .13 0" />
+                  <feBlend in="SourceGraphic" mode="multiply" />
+                </filter>
+                <clipPath id="bodyClip">
+                  <path d="M143 228C151 195 407 195 416 228L374 520C369 563 190 563 184 520Z" />
+                </clipPath>
+              </defs>
+
+              <g class="steam" fill="none" stroke="#fff8ed" stroke-linecap="round" stroke-width="10" opacity=".9">
+                <path d="M223 148c-36-37 22-53 0-91" />
+                <path d="M286 137c-33-32 24-54 1-95" />
+                <path d="M346 151c-31-35 22-51 4-86" />
+              </g>
+
+              <ellipse cx="280" cy="552" rx="148" ry="28" fill="#4b2818" opacity=".15" />
+              <g filter="url(#cupShadow)">
+                <path
+                  d="M143 228C151 195 407 195 416 228L374 520C369 563 190 563 184 520Z"
+                  fill="url(#cupBody)"
+                  stroke="#8f4726"
+                  stroke-width="8"
+                />
+                <g clip-path="url(#bodyClip)" opacity=".42">
+                  <path d="M166 318c72 32 158 27 226-6" fill="none" stroke="#f8cf94" stroke-width="12" />
+                  <path d="M174 390c71 32 145 26 206-5" fill="none" stroke="#a9562f" stroke-width="10" />
+                  <path d="M180 463c65 28 130 25 196-4" fill="none" stroke="#f8cf94" stroke-width="8" />
+                  <g fill="#71391f" opacity=".7">
+                    <circle cx="210" cy="286" r="4" /><circle cx="332" cy="300" r="5" />
+                    <circle cx="249" cy="355" r="3" /><circle cx="356" cy="432" r="4" />
+                    <circle cx="211" cy="471" r="5" /><circle cx="300" cy="493" r="3" />
+                  </g>
+                </g>
+                <ellipse cx="280" cy="228" rx="138" ry="48" fill="url(#rim)" stroke="#8f4726" stroke-width="8" />
+                <ellipse cx="280" cy="226" rx="112" ry="31" fill="url(#coffee)" />
+                <path d="M211 213c42-18 96-18 138-2" fill="none" stroke="#c99472" stroke-linecap="round" stroke-width="5" opacity=".45" />
+              </g>
+
+              <g class="bite-mark" aria-hidden="true">
+                <circle cx="403" cy="288" r="29" fill="#fff8ed" />
+                <circle cx="414" cy="327" r="25" fill="#fff8ed" />
+                <circle cx="408" cy="365" r="22" fill="#fff8ed" />
+              </g>
+            </svg>
+
+            <div class="round-stamp" aria-hidden="true">
+              <svg viewBox="0 0 150 150">
+                <defs><path id="stampPath" d="M75,75 m-55,0 a55,55 0 1,1 110,0 a55,55 0 1,1 -110,0" /></defs>
+                <text><textPath href="#stampPath">CRISP • EDIBLE • DELIGHTFULLY DIFFERENT • </textPath></text>
+              </svg>
+              <span>♥</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-note container reveal">
+          <span>The cup you finish</span>
+          <span aria-hidden="true">✦</span>
+          <span>The serve they remember</span>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Cup2Eat benefits">
+        <div class="ticker-track">
+          <span>Pour it</span><i>✦</i><span>Sip it</span><i>✦</i><span>Crunch it</span><i>✦</i><span>Share it</span><i>✦</i>
+          <span>Pour it</span><i>✦</i><span>Sip it</span><i>✦</i><span>Crunch it</span><i>✦</i><span>Share it</span><i>✦</i>
+        </div>
+      </section>
+
+      <section class="section how" id="how">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">The simplest kind of magic</p>
+            <h2>Three acts.<br /><span>One memorable serve.</span></h2>
+            <p>From first pour to final crunch, the cup becomes part of the experience—not just the container.</p>
+          </div>
+
+          <div class="steps">
+            <article class="step-card reveal">
+              <div class="step-top"><span>01</span><span class="step-icon" aria-hidden="true">↘</span></div>
+              <div class="mini-visual mini-visual--pour" aria-hidden="true">
+                <span class="mini-stream"></span><span class="mini-cup"></span>
+              </div>
+              <h3>Pour</h3>
+              <p>Fill it with a compatible drink, dessert, or tasting portion.</p>
+            </article>
+
+            <article class="step-card step-card--accent reveal">
+              <div class="step-top"><span>02</span><span class="step-icon" aria-hidden="true">◡</span></div>
+              <div class="mini-visual mini-visual--sip" aria-hidden="true">
+                <span class="mini-cup"></span><span class="mini-steam">≈</span>
+              </div>
+              <h3>Sip</h3>
+              <p>Enjoy the serve while the cup adds texture, flavour, and theatre.</p>
+            </article>
+
+            <article class="step-card step-card--dark reveal">
+              <div class="step-top"><span>03</span><span class="step-icon" aria-hidden="true">✦</span></div>
+              <div class="mini-visual mini-visual--bite" aria-hidden="true">
+                <span class="mini-cup"></span><span class="mini-bite"></span>
+              </div>
+              <h3>Crunch</h3>
+              <p>Finish the cup after the last sip—or enjoy it alongside the serve.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section benefits" id="benefits">
+        <div class="container benefits-grid">
+          <div class="benefit-lead reveal">
+            <p class="eyebrow eyebrow--light">Small cup. Big finish.</p>
+            <h2>Packaging that earns its place on the menu.</h2>
+            <p>
+              Cup2Eat makes an everyday serve more distinctive—from the first look to the final bite.
+            </p>
+            <a class="button button--cream" href="#uses">Explore serving ideas</a>
+          </div>
+
+          <div class="benefit-bento">
+            <article class="bento-card bento-card--wide reveal">
+              <span class="bento-number">01</span>
+              <div>
+                <h3>A better guest experience</h3>
+                <p>Unexpected, tactile, and naturally shareable—built to spark curiosity at the table.</p>
+              </div>
+              <span class="spark" aria-hidden="true">✦</span>
+            </article>
+            <article class="bento-card bento-card--berry reveal">
+              <span class="bento-number">02</span>
+              <h3>More than packaging</h3>
+              <p>The cup can become an edible part of the product instead of an immediate throwaway.</p>
+              <span class="giant-word" aria-hidden="true">BITE</span>
+            </article>
+            <article class="bento-card bento-card--cream reveal">
+              <span class="bento-number">03</span>
+              <h3>Room to create</h3>
+              <p>Think coffee rituals, dessert flights, ice cream, tastings, and special events.</p>
+              <div class="flavour-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+            </article>
+            <article class="bento-card bento-card--blue reveal">
+              <span class="bento-number">04</span>
+              <h3>Ready for business conversations</h3>
+              <p>Ask about formats, ordering, distribution, and suitability for your operation.</p>
+              <a href="#enquire" aria-label="Start a business enquiry">↗</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section uses" id="uses">
+        <div class="container">
+          <div class="section-heading section-heading--split reveal">
+            <div>
+              <p class="eyebrow">Made to stand out</p>
+              <h2>One cup.<br /><span>Plenty of possibilities.</span></h2>
+            </div>
+            <p>Bring a memorable finish to menus, events, and hospitality moments—always following the guidance for the product variant you use.</p>
+          </div>
+
+          <div class="use-cases" role="list">
+            <article class="use-card use-card--coffee reveal" role="listitem">
+              <div class="use-art" aria-hidden="true">
+                <span class="art-table"></span><span class="art-cup art-cup--tall"></span><span class="art-steam">≈</span>
+              </div>
+              <div class="use-copy"><span>01</span><h3>Cafés &amp; coffee bars</h3><p>Turn signature drinks and limited editions into a reason to visit—and return.</p></div>
+            </article>
+            <article class="use-card use-card--dessert reveal" role="listitem">
+              <div class="use-art" aria-hidden="true">
+                <span class="art-table"></span><span class="art-cup"></span><span class="art-scoop"></span><span class="art-cherry"></span>
+              </div>
+              <div class="use-copy"><span>02</span><h3>Desserts &amp; ice cream</h3><p>Add crunch and presentation without reaching for a conventional cup.</p></div>
+            </article>
+            <article class="use-card use-card--event reveal" role="listitem">
+              <div class="use-art" aria-hidden="true">
+                <span class="art-cup art-cup--left"></span><span class="art-cup art-cup--right"></span><span class="art-star art-star--one">✦</span><span class="art-star art-star--two">✦</span>
+              </div>
+              <div class="use-copy"><span>03</span><h3>Catering &amp; events</h3><p>Create compact, photogenic serves guests will want to talk about.</p></div>
+            </article>
+            <article class="use-card use-card--hotel reveal" role="listitem">
+              <div class="use-art" aria-hidden="true">
+                <span class="art-tray"></span><span class="art-cup art-cup--mini"></span><span class="art-dome"></span>
+              </div>
+              <div class="use-copy"><span>04</span><h3>Hotels &amp; hospitality</h3><p>Add a distinctive detail to tastings, welcome moments, and special menus.</p></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section menu-lab" id="menu-lab">
+        <div class="container menu-lab-grid">
+          <div class="menu-lab-copy reveal">
+            <p class="eyebrow">The Cup2Eat menu lab</p>
+            <h2>Make the serve the story.</h2>
+            <p>Choose a setting and see how the experience changes.</p>
+            <div class="lab-tabs" role="tablist" aria-label="Serving settings">
+              <button type="button" role="tab" aria-selected="true" aria-controls="lab-panel" data-lab-tab="coffee">Coffee bar</button>
+              <button type="button" role="tab" aria-selected="false" aria-controls="lab-panel" data-lab-tab="dessert">Dessert counter</button>
+              <button type="button" role="tab" aria-selected="false" aria-controls="lab-panel" data-lab-tab="event">Live event</button>
+            </div>
+          </div>
+
+          <div class="lab-panel lab-panel--coffee reveal" id="lab-panel" role="tabpanel" tabindex="0" data-lab-panel>
+            <div class="lab-scene" aria-hidden="true">
+              <span class="lab-backdrop"></span>
+              <span class="lab-saucer"></span>
+              <span class="lab-cup"></span>
+              <span class="lab-fill"></span>
+              <span class="lab-steam lab-steam--one"></span>
+              <span class="lab-steam lab-steam--two"></span>
+              <span class="lab-crumb lab-crumb--one"></span>
+              <span class="lab-crumb lab-crumb--two"></span>
+            </div>
+            <div class="lab-caption">
+              <span data-lab-kicker>Signature serve</span>
+              <h3 data-lab-title>Turn the daily coffee into a destination.</h3>
+              <p data-lab-text>A familiar ritual gets an unexpected finish—and a built-in conversation starter.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section experience">
+        <div class="container experience-grid">
+          <div class="experience-visual reveal" aria-hidden="true">
+            <div class="experience-ring"></div>
+            <div class="experience-cup">
+              <span class="experience-coffee"></span>
+              <span class="experience-bite experience-bite--one"></span>
+              <span class="experience-bite experience-bite--two"></span>
+            </div>
+            <span class="experience-word">CRUNCH</span>
+          </div>
+          <div class="experience-copy reveal">
+            <p class="eyebrow">A different ending</p>
+            <h2>What if the cup was part of the treat?</h2>
+            <p>
+              Conventional cups are usually discarded after one use. Cup2Eat is designed for a more
+              enjoyable ending: it can become part of what the customer consumes.
+            </p>
+            <p class="fine-print">
+              Environmental impact depends on ingredients, production, transport, serving conditions,
+              and whether the cup is eaten. Ask Cup2Eat for verified product and sustainability information.
+            </p>
+            <a class="text-link" href="#enquire">Ask for product details <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section social-proof">
+        <div class="container">
+          <div class="social-head reveal">
+            <p class="eyebrow">Served. Shared. Remembered.</p>
+            <h2>Made for the camera.<br />Built for the moment.</h2>
+          </div>
+          <div class="social-grid">
+            <a class="social-tile social-tile--one reveal" href="https://www.instagram.com/cup2eat/" target="_blank" rel="noreferrer" aria-label="Visit Cup2Eat on Instagram">
+              <span class="social-handle">@cup2eat</span><span class="social-icon" aria-hidden="true">↗</span><span class="social-shape social-shape--cup"></span>
+            </a>
+            <div class="social-quote reveal">
+              <span aria-hidden="true">“</span>
+              <p>The best reaction starts with: <em>Wait… I can eat this?</em></p>
+              <small>The Cup2Eat moment</small>
+            </div>
+            <a class="social-tile social-tile--two reveal" href="https://www.instagram.com/cup2eat/" target="_blank" rel="noreferrer" aria-label="See serving ideas on Instagram">
+              <span class="social-handle">Serving ideas</span><span class="social-icon" aria-hidden="true">↗</span><span class="social-shape social-shape--scoop"></span>
+            </a>
+          </div>
+          <p class="social-note reveal">Already serving Cup2Eat? Tag <a href="https://www.instagram.com/cup2eat/" target="_blank" rel="noreferrer">@cup2eat</a> for a chance to be featured.</p>
+        </div>
+      </section>
+
+      <section class="section enquire" id="enquire">
+        <div class="container enquiry-shell">
+          <div class="enquiry-copy reveal">
+            <p class="eyebrow eyebrow--light">For professional use</p>
+            <h2>Curious if Cup2Eat fits your menu?</h2>
+            <p>Tell us what you serve, where you operate, and what you have in mind. Prepare a clear enquiry, then send it directly to Cup2Eat.</p>
+            <div class="enquiry-points">
+              <span><i aria-hidden="true">✓</i> Sample enquiries</span>
+              <span><i aria-hidden="true">✓</i> Wholesale details</span>
+              <span><i aria-hidden="true">✓</i> Distributor conversations</span>
+            </div>
+          </div>
+
+          <form class="enquiry-form reveal" data-enquiry-form>
+            <div class="field-row">
+              <label>First name<input type="text" name="name" autocomplete="given-name" required placeholder="Your name" /></label>
+              <label>Business name<input type="text" name="business" autocomplete="organization" placeholder="Company or venue" /></label>
+            </div>
+            <div class="field-row">
+              <label>
+                Business type
+                <select name="type" required>
+                  <option value="">Choose one</option>
+                  <option>Café / coffee bar</option>
+                  <option>Dessert / ice cream</option>
+                  <option>Catering / events</option>
+                  <option>Hotel / hospitality</option>
+                  <option>Distributor</option>
+                  <option>Other</option>
+                </select>
+              </label>
+              <label>City &amp; country<input type="text" name="location" autocomplete="address-level2" required placeholder="Where you operate" /></label>
+            </div>
+            <label>
+              What would you like to create?
+              <textarea name="message" rows="4" required placeholder="Tell Cup2Eat about the drink, dessert, event, or market you have in mind..."></textarea>
+            </label>
+            <label>Estimated quantity <span>(optional)</span><input type="text" name="quantity" inputmode="numeric" placeholder="For example: 500 per month" /></label>
+            <button class="button button--full" type="submit">Prepare my enquiry <span aria-hidden="true">→</span></button>
+            <p class="form-note">This website does not transmit or store your details. It prepares a message you can copy and send to <a href="https://www.instagram.com/cup2eat/" target="_blank" rel="noreferrer">@cup2eat</a>.</p>
+
+            <div class="enquiry-result" data-enquiry-result hidden>
+              <p><strong>Your enquiry is ready.</strong> Copy it, then send it to Cup2Eat on Instagram.</p>
+              <pre data-enquiry-message></pre>
+              <div>
+                <button class="button button--small" type="button" data-copy-enquiry>Copy enquiry</button>
+                <a class="button button--small button--outline" href="https://www.instagram.com/cup2eat/" target="_blank" rel="noreferrer">Open Instagram ↗</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="section faq" id="faq">
+        <div class="container faq-grid">
+          <div class="faq-heading reveal">
+            <p class="eyebrow">Good questions</p>
+            <h2>Before the first bite.</h2>
+            <p>Product details can change. Confirm current specifications with Cup2Eat before ordering or serving.</p>
+          </div>
+          <div class="faq-list reveal">
+            <details>
+              <summary>What exactly is Cup2Eat?<span aria-hidden="true">+</span></summary>
+              <p>Cup2Eat is an edible cup designed to become part of the serving experience. Ask the team for current ingredients, formats, flavours, and product specifications.</p>
+            </details>
+            <details>
+              <summary>What can I serve in it?<span aria-hidden="true">+</span></summary>
+              <p>Potential uses include selected drinks, desserts, ice cream, tasting portions, and event serves. Suitability depends on the product variant and serving conditions.</p>
+            </details>
+            <details>
+              <summary>How long does it stay crisp?<span aria-hidden="true">+</span></summary>
+              <p>Performance can vary with temperature, filling, serving time, and storage. Request current product guidance for verified information.</p>
+            </details>
+            <details>
+              <summary>What ingredients or allergens does it contain?<span aria-hidden="true">+</span></summary>
+              <p>Always check the current product specification or packaging for ingredients and allergen information before purchase and service.</p>
+            </details>
+            <details>
+              <summary>Can I order samples or buy in bulk?<span aria-hidden="true">+</span></summary>
+              <p>Cup2Eat welcomes business enquiries. Share your location, business type, expected quantities, and intended use to discuss current options.</p>
+            </details>
+            <details>
+              <summary>Can the cups be customised?<span aria-hidden="true">+</span></summary>
+              <p>Ask the team about currently available formats, packaging, and customisation possibilities.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta">
+        <div class="container final-cta-inner reveal">
+          <span class="final-crumb final-crumb--one" aria-hidden="true"></span>
+          <span class="final-crumb final-crumb--two" aria-hidden="true"></span>
+          <p class="eyebrow">Ready for the crunch?</p>
+          <h2>Serve the cup everyone talks about.</h2>
+          <p>Request a sample or tell Cup2Eat about your menu, event, or market.</p>
+          <div>
+            <a class="button" href="#enquire">Request a sample</a>
+            <a class="text-link" href="https://www.instagram.com/cup2eat/" target="_blank" rel="noreferrer">Message @cup2eat <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand brand--footer" href="#top" aria-label="Cup2Eat home">
+            <img src="assets/logo-mark.svg" alt="" width="50" height="50" />
+            <span>Cup<span>2</span>Eat</span>
+          </a>
+          <p>The cup you finish.</p>
+        </div>
+        <div class="footer-links">
+          <div><strong>Explore</strong><a href="#how">How it works</a><a href="#uses">Serving ideas</a><a href="#faq">FAQ</a></div>
+          <div><strong>Connect</strong><a href="https://www.instagram.com/cup2eat/" target="_blank" rel="noreferrer">Instagram ↗</a><a href="#enquire">Business enquiries</a></div>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span data-year></span> Cup2Eat</span>
+        <span>Drink it. Crunch it. Remember it.</span>
+      </div>
+    </footer>
+
+    <div class="toast" role="status" aria-live="polite" data-toast></div>
+    <script src="script.js"></script>
+  </body>
+</html>

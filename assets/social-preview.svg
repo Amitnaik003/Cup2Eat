@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Cup2Eat — Drink it. Eat the cup.</title>
+  <desc id="desc">A warm illustrated preview for the Cup2Eat edible cup website.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#fff8ed"/>
+      <stop offset="1" stop-color="#f2d4ad"/>
+    </linearGradient>
+    <linearGradient id="cup" x1="0" x2="1">
+      <stop stop-color="#f1bd78"/>
+      <stop offset="1" stop-color="#a9552d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1030" cy="120" r="260" fill="none" stroke="#d94b64" stroke-width="3" opacity=".3"/>
+  <circle cx="1010" cy="150" r="180" fill="none" stroke="#a9552d" stroke-width="2" stroke-dasharray="10 12" opacity=".4"/>
+  <g transform="translate(740 75) rotate(6 190 240)">
+    <ellipse cx="200" cy="500" rx="180" ry="32" fill="#6c351d" opacity=".16"/>
+    <path d="M70 155c10-42 250-42 260 0l-44 300c-8 48-163 48-172 0L70 155Z" fill="url(#cup)" stroke="#24150f" stroke-width="10"/>
+    <ellipse cx="200" cy="155" rx="130" ry="46" fill="#e5a05a" stroke="#24150f" stroke-width="10"/>
+    <ellipse cx="200" cy="153" rx="103" ry="29" fill="#24150f"/>
+    <circle cx="321" cy="232" r="31" fill="#efd6b6"/>
+    <circle cx="331" cy="276" r="26" fill="#efd6b6"/>
+    <path d="M160 76c-28-29 17-42 0-74M221 68c-25-27 19-41 2-73" fill="none" stroke="#a9552d" stroke-width="10" stroke-linecap="round" opacity=".6"/>
+  </g>
+  <g transform="translate(70 75)">
+    <g transform="translate(0 0)">
+      <circle cx="32" cy="32" r="30" fill="#ffb53d" stroke="#24150f" stroke-width="3"/>
+      <path d="M18 20c1.8-4 26.2-4 28 0l-4.6 27.2c-.7 4.3-18.2 4.3-18.9 0L18 20Z" fill="#d68a45" stroke="#24150f" stroke-width="3"/>
+      <ellipse cx="32" cy="20" rx="14" ry="5" fill="#f3bd78" stroke="#24150f" stroke-width="3"/>
+      <ellipse cx="32" cy="20" rx="10" ry="2.7" fill="#24150f"/>
+    </g>
+    <text x="78" y="45" fill="#24150f" font-family="Georgia, serif" font-size="42" font-weight="700">Cup<tspan fill="#d94b64">2</tspan>Eat</text>
+  </g>
+  <text x="70" y="250" fill="#24150f" font-family="Georgia, serif" font-size="91" font-weight="700" letter-spacing="-5">Drink it.</text>
+  <text x="70" y="345" fill="#a9552d" font-family="Georgia, serif" font-size="91" font-weight="700" font-style="italic" letter-spacing="-5">Eat the cup.</text>
+  <text x="74" y="415" fill="#60483d" font-family="Arial, sans-serif" font-size="25">Edible cups for cafés, desserts, events and hospitality.</text>
+  <rect x="72" y="473" width="238" height="68" rx="34" fill="#24150f"/>
+  <text x="112" y="516" fill="#fff8ed" font-family="Arial, sans-serif" font-size="23" font-weight="700">The cup you finish</text>
+</svg>
